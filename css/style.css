@@ -63,6 +63,12 @@ body{
     margin: 0 auto;
 }
 
+.container-small{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
 .col{
     padding: 10px;
 }
@@ -110,6 +116,10 @@ body{
     color: var(--color-light-color);
 }
 
+.text-orange{
+    color: var(--color-contrast-color);
+}
+
 .text-center{
     text-align: center;
 }
@@ -144,7 +154,7 @@ body{
 }
 
 .mt-20{
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .mb-30{
@@ -162,6 +172,7 @@ body{
     text-decoration: none;
     color: black;
     border-radius: 15px;
+    border: none;
 }
 
 .btn-secondary{
@@ -170,7 +181,7 @@ body{
 }
 
 .btn-3{
-    padding: 5px 20px;
+    padding: 5px 15px;
     display: inline-block;
     text-decoration: none;
     color: white;
@@ -178,6 +189,16 @@ body{
     background-color: var(--color-primary-color);
     margin-bottom: 10px;
     margin-left: 20px;
+}
+
+.btn-4{
+    padding: 15px 25px;
+    display: inline-block;
+    text-decoration: none;
+    color: var(--color-primary-color);
+    background-color: var(--color-light-color);
+    border-radius: 20px;
+    margin-left: 170px;
 }
 
 
@@ -236,4 +257,12 @@ header{
 
 .number{
     font-size: 40px;
+}
+
+.font{
+    font-size: 40px;
+}
+
+.font-2{
+    font-size: 60px;
 }
