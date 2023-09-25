@@ -151,6 +151,10 @@ body{
     margin-bottom: 30px;
 }
 
+.ml-10{
+    margin-left: 10px;
+}
+
 /*Bottoni */
 .btn{
     padding: 6px 10px;
@@ -208,8 +212,13 @@ header{
 }
 
 .image-2{
+    width: 200px;
+    height: 130px;
+}
+
+.image-3{
     width: 150px;
-    height: 100px;
+    height: 150px;
 }
 
 .box-wrapper{
