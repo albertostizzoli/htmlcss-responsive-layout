@@ -26,7 +26,7 @@ body{
 
 /*Classi Flex */
 
-.d-flex-2{
+.d-flex{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -43,7 +43,6 @@ body{
 .icon{
     background-color: var(--color-primary-color);
     color: black;
-    border-radius: 50%;
     font-size: 30px;
 }
 
@@ -119,7 +118,7 @@ body{
     line-height: 1;
 }
 
-/* Padding */
+/* Padding e Margini*/
 .px-10{
     padding-left: 10px;
     padding-right: 10px;
@@ -138,6 +137,14 @@ body{
 .py-20{
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.mb-20{
+    margin-bottom: 20px;
+}
+
+.mt-20{
+    margin-top: 20px;
 }
 
 /*Bottoni */
@@ -183,4 +190,9 @@ header{
 .image{
     width: 200px;
 
+}
+
+.image-2{
+    width: 150px;
+    height: 100px;
 }
