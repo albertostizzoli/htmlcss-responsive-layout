@@ -1,3 +1,4 @@
+/* Generali */
 :root {
 	--color-secondary-color: #0084FD;
 	--color-dark-color: #333333;
@@ -16,4 +17,138 @@
 
 body{
     font-family: 'PT Sans', sans-serif;
+    background-color: var(--color-light-color);
+}
+
+.debug{
+    border: 1px solid black;
+}
+
+.d-flex{
+    display: flex;
+    flex-flow: wrap;
+
+}
+
+.icons{
+    color: var(--color-secondary-color);
+    font-size: 50px;
+    padding: 10px;
+}
+
+.fa-brands{
+    padding: 5px;
+}
+
+/*Header */
+
+ul, li, a{
+    padding: 6px 10px;
+    text-decoration: none;
+    color: white;
+    list-style : none;
+    display: block;
+}
+
+header{
+    background-color: var(--color-secondary-color);
+}
+
+#logo{
+    width: 70px;
+}
+
+.nav-flex{
+    display: flex;
+    flex-flow: row ;
+    justify-content: space-between;
+}
+
+/* Contenitori */
+.container{
+    padding: 5px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.col{
+    padding: 10px;
+}
+
+.card{
+    width: 100%;
+}
+
+
+
+/*Bordi */
+.small-border-rounded{
+    border-radius: 10px;
+}
+
+.big-border-rounded{
+    border-radius: 20px;
+}
+
+.circle{
+    border-radius: 50%;
+}
+
+/*Sfondi */
+.bg-light{
+    background-color: var(--color-light-color);
+}
+
+.bg-card{
+    background-color: var(--color-bg-card);
+}
+
+.bg-primary{
+    background-color: var(--color-primary-color);
+}
+
+/* Testo */
+.text-primary{
+    color: var(--color-primary-color);
+}
+
+.text-secondary{
+    color: var(--color-secondary-color);
+}
+
+.text-light{
+    color: var(--color-light-color);
+}
+
+.text-center{
+    text-align: center;
+}
+
+.line-heigth{
+    line-height: 1;
+}
+
+/* Padding */
+.px-10{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.py-10{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*Bottoni */
+.btn{
+    padding: 6px 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border-radius: 15px;
+}
+
+.btn-secondary{
+    background-color: var(--color-secondary-color);
+    color: var(--color-light-color);
 }
